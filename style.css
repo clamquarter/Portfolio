@@ -1,0 +1,129 @@
+header h1 {
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+
+
+}
+
+body {
+background-color: CCCCFF;
+
+}
+
+header {
+  border-radius: 10px;
+  color: black;
+  padding-top: 10px;
+}
+/* This is a comment left to shoawcase that I can use comments in CSS. */
+
+footer {
+text-align: right;
+height: 20;
+}
+
+h1 {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12;
+
+}
+
+h2 {
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+padding-top: 10;
+}
+
+h3 {
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+p {
+font-family: Arial, Helvetica, sans-serif;
+border-radius: 50%; 
+
+}
+
+ul {
+font-family: Arial, Helvetica, sans-serif;
+margin: 12
+}
+
+ol {
+margin: 12
+}
+
+section.pretty {
+  background-color: #CCCCFF;
+}
+
+hr {
+  border: 30, #CCCCFF, 10px;
+  background-color: #CCCCFF;
+  height: 2px;
+}
+
+sup  {
+  color: whitesmoke
+ 
+}
+
+
+img {
+  width: 100%;
+  border-radius: 10%;
+
+}
+
+
+
+/* The below code will change how links appear when visited/hovered over, and so on.*/
+a:link    { 
+  color: darkviolet; 
+   }
+
+a:visited { 
+  color: darkmagenta;  
+   }
+
+a:hover   { 
+  color: pink; 
+  }
+
+a:active  { 
+  color: purple; 
+   }
+
+/* items & groups*/
+
+.group {
+  display: flex;
+flex-direction: column;
+flex: 1;
+}
+
+img {
+  width: 100%;
+}
+
+.item {
+flex: 1;
+margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+  margin: 10px;
+}
+
+@media all and (min-width: 800px) {
+  section, h1 {
+    padding: 0 10%;
+  }
+  .group {
+    flex-direction: row;
+  }
+}
+
