@@ -1,26 +1,45 @@
-header h1 {
-font-family: Arial, Helvetica, sans-serif;
-text-align: center;
-
-
-}
-
 body {
 background-color: CCCCFF;
-
+margin: 0;
 }
 
-header {
+header.main {
   border-radius: 10px;
   color: black;
   padding-top: 10px;
+  margin-bottom: 40px;
+  background-color: black;
 }
-/* This is a comment left to shoawcase that I can use comments in CSS. */
 
-footer {
-text-align: right;
-height: 20;
+header nav {
+  display: flex;
+  justify-content: center;
+  
 }
+
+header nav ul {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+header.main nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px 0 0;
+}
+
+header.main nav ul li:last-child {
+  margin-right: 0;
+}
+
+header h1 {
+color: #fff;
+text-align: center;
+margin: 0;
+padding-top: 20px;
+}
+
 
 h1 {
 font-family: Arial, Helvetica, sans-serif;
@@ -31,7 +50,8 @@ font-size: 12;
 h2 {
 font-family: Arial, Helvetica, sans-serif;
 text-align: center;
-padding-top: 10;
+padding-top: 10px;
+background-color: white;
 }
 
 h3 {
@@ -45,6 +65,11 @@ font-family: Arial, Helvetica, sans-serif;
 border-radius: 50%; 
 
 }
+
+footer {
+  text-align: right;
+  height: 20;
+  }
 
 ul {
 font-family: Arial, Helvetica, sans-serif;
@@ -81,19 +106,19 @@ img {
 
 /* The below code will change how links appear when visited/hovered over, and so on.*/
 a:link    { 
-  color: darkviolet; 
+  color: black
    }
 
 a:visited { 
-  color: darkmagenta;  
+  color: black
    }
 
 a:hover   { 
-  color: pink; 
+  color: turquoise
   }
 
 a:active  { 
-  color: purple; 
+  color: white
    }
 
 /* items & groups*/
@@ -118,7 +143,30 @@ margin: 10px;
   margin: 10px;
 }
 
-@media all and (min-width: 800px) {
+@media all and (min-width: 600px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    
+  }
+
+  header h1 {
+    margin: 14px 0;
+    padding-top: 0;
+    background-color: black;
+    
+  }
+
+  header nav {
+    margin-top: 8px;
+    
+  }
+
+  header nav ul li a:hover {
+    color: turquoise;
+  }
+
   section, h1 {
     padding: 0 10%;
   }
