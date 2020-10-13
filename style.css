@@ -1,3 +1,13 @@
+
+@font-face {
+  font-family: 'intro_head_rbase';
+  src: url('introheadr-base-webfont.woff2') format('woff2'),
+       url('introheadr-base-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 body {
 background-color: CCCCFF;
 margin: 0;
@@ -9,6 +19,8 @@ header.main {
   padding-top: 10px;
   margin-bottom: 40px;
   background-color: black;
+  font-family: 'intro_head_rbase', 'Arial', serif;
+  font-weight: 100;
 }
 
 header nav {
@@ -40,28 +52,34 @@ margin: 0;
 padding-top: 20px;
 }
 
+header h2 {
+  text-align: center;
+
+}
+
 
 h1 {
-font-family: Arial, Helvetica, sans-serif;
+font-family: 'intro_head_rbase', Helvetica, sans-serif;
 font-size: 12;
+font-weight: 100;
 
 }
 
 h2 {
-font-family: Arial, Helvetica, sans-serif;
+font-family: Helvetica, sans-serif;
 text-align: center;
 padding-top: 10px;
 background-color: white;
 }
 
 h3 {
-font-family: Arial, Helvetica, sans-serif;
+font-family:  Helvetica, sans-serif;
 
 
 }
 
 p {
-font-family: Arial, Helvetica, sans-serif;
+font-family: Helvetica, sans-serif;
 border-radius: 50%; 
 
 }
@@ -83,15 +101,19 @@ footer {
     font-size: 18px;
     margin-bottom: 5px;
    
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
   }
 
   form textarea {
     height: 4.75rem;
+    width: 100%;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 20px;
   }
 
 ul {
-font-family: Arial, Helvetica, sans-serif;
+font-family: Helvetica, sans-serif;
 margin: 12
 }
 
@@ -176,6 +198,8 @@ margin: 10px;
     background-color: black;
     
   }
+
+
 
   header nav {
     margin-top: 8px;
