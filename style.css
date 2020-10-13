@@ -11,6 +11,7 @@
 body {
 background-color: CCCCFF;
 margin: 0;
+width: 100%;
 }
 
 header.main {
@@ -33,6 +34,7 @@ header nav ul {
   display: flex;
   padding-left: 0;
   list-style: none;
+  
 }
 
 header.main nav ul li a {
@@ -63,18 +65,20 @@ font-family: 'intro_head_rbase', Helvetica, sans-serif;
 font-size: 12;
 font-weight: 100;
 
+
 }
 
 h2 {
-font-family: Helvetica, sans-serif;
+font-family: 'intro_head_rbase', Helvetica, sans-serif;
 text-align: center;
 padding-top: 10px;
 background-color: white;
+width: 100%;
 }
 
 h3 {
 font-family:  Helvetica, sans-serif;
-
+width: 100%;
 
 }
 
@@ -94,13 +98,15 @@ footer {
     font-size: 16px;
     margin-bottom: 20px;
     border-radius: 20%;
+    width: 100%;
   }
 
+  
   form label {
     display: block;
     font-size: 18px;
     margin-bottom: 5px;
-   
+    width: 100%;
     font-family: Helvetica, sans-serif;
   }
 
@@ -114,7 +120,8 @@ footer {
 
 ul {
 font-family: Helvetica, sans-serif;
-margin: 12
+margin: 12;
+
 }
 
 ol {

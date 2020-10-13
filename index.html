@@ -123,21 +123,24 @@ link to your linkedin profile-->
         </div>
         <div class="item">
           <form action="https://formspree.io/f/xwkwlljo" method="POST">
+            <fieldset>
             <label for="user-name">Name:</label>
-            <input id="user-name" type="text" name="name" maxlength="20">
+            <input id="user-name" type="text" name="name" maxlength="20" placeholder="Your name here.">
 
-            <label>
+            
               <label for="email">Email:</label>
-              <input id="email" type="text" name="_replyto">
-            </label>
-            <label>
-              <label for="message">Message</label>
-              <textarea id="message" name="message" autofocus="on" required maxlength="300"></textarea>
-            </label>
-          
-          
+              <input id="email" type="text" name="_replyto" placeholder="JaneDoe@email.com"> <br> 
+            
+            
+              <label for="message">Message:</label> <br>
+              <textarea id="message" name="message" autofocus="on" required maxlength="300" placeholder="Got a great project you'd like to collab on? Hiring? Just wanna say hi? (Maybe don't email just to say hi.)"></textarea>
+            
+          <input name="mailing-list" type="checkbox" id="mailing-list">
+          <label for="mailing-list">You agree to receive <del>spam</del> useful articles from me.</label> <br>
           
             <button type="submit">Send</button>
+            <button type="reset">Reset</button>
+          </fieldset>
           </form>
         </div>
     </div>
